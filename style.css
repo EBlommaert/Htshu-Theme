@@ -1,0 +1,24 @@
+/*
+Theme Name: htshu
+Theme URI: http://example.com/example/
+Description: A search engine optimized website framework for WordPress.
+Author: htshu
+Author URI: http://example.com/
+Version: 1.0
+Tags: Comma-separated tags that describe your theme
+.
+Your theme can be your copyrighted work.
+Like WordPress, this work is released under GNU General Public License, version 2 (GPL).
+http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
+.
+*/
+@import url('assets/css/reset.css');
+@import url('assets/css/ie8.css');
+@import url('assets/css/ie9.css');
+@import url('assets/css/main.css');
+@import url('assets/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Kreon:700');
+
+.single #nav-above {
+    display:none;
+}
